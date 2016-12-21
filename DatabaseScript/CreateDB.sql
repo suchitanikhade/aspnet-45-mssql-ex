@@ -1,3 +1,12 @@
+CREATE DATABASE [sampledb]
+ CONTAINMENT = NONE
+ ON  PRIMARY 
+( NAME = N'sampledb', FILENAME = N'C:\var\opt\mssql\data\sampledb.mdf' , SIZE = 8192KB , MAXSIZE = UNLIMITED, FILEGROWTH = 65536KB )
+ LOG ON 
+( NAME = N'sampledb_log', FILENAME = N'C:\var\opt\mssql\data\sampledb_log.ldf' , SIZE = 8192KB , MAXSIZE = 2048GB , FILEGROWTH = 65536KB )
+GO
+
+USE [sampledb]
 
 CREATE TABLE [dbo].[Car](
  [CarId] [int] IDENTITY(1,1) NOT NULL,
