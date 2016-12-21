@@ -102,7 +102,7 @@
     <Content Include="assets\js\bootstrap.js" />
     <Content Include="assets\js\bootstrap.min.js" />
     <Content Include="assets\js\npm.js" />
-    <Content Include="DatabaseScript\CreateTable.sql" />
+    <Content Include="DatabaseScript\CreateDB.sql" />
     <Content Include="Default.aspx" />
     <Content Include="assets\css\bootstrap-theme.css.map" />
     <Content Include="assets\css\bootstrap-theme.min.css.map" />
@@ -149,7 +149,7 @@
     <VisualStudio>
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
         <WebProjectProperties>
-          <UseIIS>True</UseIIS>
+          <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>27339</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>

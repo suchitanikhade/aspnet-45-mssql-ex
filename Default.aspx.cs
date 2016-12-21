@@ -29,7 +29,7 @@ namespace aspnet_mssql_sample
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            Response.Write(ConnectionSetting.CONNECTION_STRING);
+            test.InnerHtml = ConnectionSetting.CONNECTION_STRING;
 
             if (!Page.IsPostBack)
             {
