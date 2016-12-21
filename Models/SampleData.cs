@@ -23,7 +23,7 @@ using System.Threading.Tasks;
 using System.Web;
 using System.Data.SqlClient;
 
-namespace aspnet_45_mssql_ex.Models
+namespace aspnet_mssql_sample.Models
 {
     public class SampleData
     {

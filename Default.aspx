@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="aspnet_45_mssql_ex.Default" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="aspnet_mssql_sample.Default" %>
 
 <!DOCTYPE html>
 
@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-    <title>ASP.NET 4.5 - MSSQL Example</title>
+    <title>ASP.NET 4.5 - MsSQL Example</title>
     <!-- Bootstrap -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
 </head>
@@ -36,7 +36,7 @@
     <div class="container theme-showcase">
         <div class="jumbotron">
             <h1>MSSQL Example</h1>
-            <p>This is MSSQL Example Application which demonstrate connectivity between ASP.NET 4.5 and MSSQL running on OpenShift 3 Cloud.</p>
+            <p>This is MSSQL Example Application which demonstrate connectivity between ASP.NET 4.5 and MSSQL on OpenShift 3 Cloud.</p>
         </div>
         <div class="alert alert-danger alert-dismissible fade in" role="alert" id="dvAlertError" style="display: none;" runat="server">
             <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button>
@@ -151,4 +151,3 @@
     <script src="assets/js/bootstrap.min.js"></script>
 </body>
 </html>
-

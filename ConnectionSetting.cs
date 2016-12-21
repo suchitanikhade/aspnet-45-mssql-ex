@@ -1,4 +1,4 @@
-﻿#region Copyright ©2016, Click2Cloud Inc. - All Rights Reserved
+#region Copyright ©2016, Click2Cloud Inc. - All Rights Reserved
 /* ------------------------------------------------------------------- *
 *                            Click2Cloud Inc.                          *
 *                  Copyright ©2016 - All Rights reserved               *
@@ -20,9 +20,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace aspnet_45_mssql_ex
+namespace aspnet_mssql_sample
 {
-    public class ConnectionSetting
+    public static class ConnectionSetting
     {
         internal static string CONNECTION_STRING
         {
@@ -93,5 +93,6 @@ namespace aspnet_45_mssql_ex
         }
 
         #endregion
+
     }
 }

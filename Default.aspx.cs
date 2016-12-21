@@ -22,7 +22,8 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace aspnet_45_mssql_ex
+
+namespace aspnet_mssql_sample
 {
     public partial class Default : System.Web.UI.Page
     {
@@ -62,7 +63,7 @@ namespace aspnet_45_mssql_ex
                             </tr>
                         </thead><tbody>";
 
-            foreach (var car in Models.SampleData.Cars)
+            foreach (var car in aspnet_mssql_sample.Models.SampleData.Cars)
             {
                 dvRecord.InnerHtml += "<tr>" +
                                 "<td>" + car.CarId.ToString() + "</td>" +
@@ -112,7 +113,7 @@ namespace aspnet_45_mssql_ex
                     dvAlertError.Style.Add("display", "");
                 }
             }
-            catch (Exception)
+            catch (Exception ex)
             {
                 dvErrorHeading.InnerText = "Data Insertion Failed!";
                 dvErrorDetails.InnerText = "Something went wrong while inserting record.";

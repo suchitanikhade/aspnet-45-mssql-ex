@@ -21,7 +21,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
 
-namespace aspnet_45_mssql_ex.Models
+namespace aspnet_mssql_sample.Models
 {
     public class Car
     {

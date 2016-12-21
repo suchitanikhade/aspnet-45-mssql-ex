@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace aspnet_45_mssql_ex {
+namespace aspnet_mssql_sample {
     
     
     public partial class Default {

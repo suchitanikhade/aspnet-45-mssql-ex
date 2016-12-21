@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("aspnet_45_mssql_ex")]
+[assembly: AssemblyTitle("aspnet_mssql_sample")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Click2Cloud")]
-[assembly: AssemblyProduct("aspnet_45_mssql_ex")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("aspnet_mssql_sample")]
 [assembly: AssemblyCopyright("Copyright ©  2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("0a20c31a-a2c6-4203-927d-51e9ff78c93a")]
+[assembly: Guid("ef9af355-2c58-4187-850a-b927b9cefc74")]
 
 // Version information for an assembly consists of the following four values:
 //
