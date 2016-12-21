@@ -44,9 +44,6 @@
             <h4 id="dvErrorHeading" runat="server"></h4>
             <p id="dvErrorDetails" runat="server"></p>
         </div>
-        <label runat="server" id="test">Message to show</label>
-    <br />
-    <br />
         <div class="alert alert-success alert-dismissible fade in" role="alert" id="dvAlertSuccess" style="display: none;" runat="server">
             <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button>
             <strong>Record saved!</strong> New record inserted successfully.

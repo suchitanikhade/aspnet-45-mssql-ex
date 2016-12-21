@@ -29,8 +29,6 @@ namespace aspnet_mssql_sample
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            test.InnerHtml = ConnectionSetting.CONNECTION_STRING;
-
             if (!Page.IsPostBack)
             {
                 this.BindRecords();
