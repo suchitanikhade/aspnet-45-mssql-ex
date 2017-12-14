@@ -59,7 +59,7 @@ namespace aspnet_mssql_sample
         {
             get
             {
-                return "1433";
+                return "3306";
             }
         }
 
